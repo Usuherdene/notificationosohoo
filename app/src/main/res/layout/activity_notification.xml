@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="282dp"
+        android:layout_height="302dp"
+        android:text="Амьдралд таагүй зүйлс маш олон тохиолддог үеэрхэл, дурлал, сэтгэл гутрал, хэрүүл and маргаан гээл бүхэл зүйлс хэцүү санагдана учир нь бид чинь хэт ЭМЗЭГ (том ч биш бага ч биш юу ч мэдэхгүй бүхнийг эхэлх) насан дээр явж байна хамгий гол нь даваад л гарах нь чухал 😊 зоригтой, зорилготой байгаарай чи чаднаа амьдрах амархан шүү харин амьдарч байгаа юм шиг инээх л хэцүү..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+</androidx.constraintlayout.widget.ConstraintLayout>
